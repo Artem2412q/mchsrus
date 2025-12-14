@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B5FA8"/>
+      <stop offset="0.55" stop-color="#0A1733"/>
+      <stop offset="1" stop-color="#F36A1D"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 120) rotate(35) scale(520 360)">
+      <stop stop-color="#8BD0FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8BD0FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g)"/>
+  <rect width="1200" height="700" fill="url(#r)"/>
+  <g opacity="0.28">
+    <path d="M-80 560 L420 60 L520 160 L20 660 Z" fill="#ffffff"/>
+    <path d="M680 720 L980 420 L1160 600 L860 900 Z" fill="#ffffff"/>
+  </g>
+  <rect x="64" y="64" width="1072" height="572" rx="44" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.20)"/>
+  <text x="110" y="320" fill="#ffffff" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="64" font-weight="800">КамАЗ 3.2</text>
+  <text x="110" y="382" fill="rgba(255,255,255,0.88)" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="28">Техника караула • карточка</text>
+  <text x="110" y="510" fill="rgba(255,255,255,0.72)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono" font-size="18">Заменить на реальные фото можно в /assets/img/gallery</text>
+</svg>

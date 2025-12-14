@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Официальный информационный сайт подразделений МЧС по г. Невский: ПСЧ №3 и ГИМС №7."/>
+  <meta name="theme-color" content="#0b1220"/>
+  <title>Алгоритмы — МЧС Невский</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+<div class="bg-orbs"></div>
+
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="На главную">
+        <img src="assets/img/logo.svg" alt="МЧС"/>
+</a>
+
+      <nav class="navlinks" aria-label="Навигация">
+        <a data-nav href="index.html">Главная</a>
+        <a data-nav href="psch3.html">ПСЧ №3</a>
+        <a data-nav href="equipment.html">Оснащение</a>
+        <a data-nav href="materials.html">Материалы</a>
+        <a data-nav href="algorithms.html">Алгоритмы</a>
+        <a data-nav href="memos.html">Памятки</a>        <a data-nav href="news.html">Новости</a>
+        <a data-nav href="gims7.html">ГИМС №7</a>
+      </nav>
+
+      <div class="actions">
+<a class="btn primary" href="psch3.html#contacts" title="Контакты">Связь</a>
+        <button id="menuBtn" class="btn icon hamburger" aria-label="Меню" title="Меню"><span aria-hidden="true">☰</span></button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="mobileMenu" aria-label="Мобильное меню">
+      <a data-nav href="index.html">Главная</a>
+      <a data-nav href="psch3.html">ПСЧ №3</a>
+      <a data-nav href="equipment.html">Оснащение</a>
+      <a data-nav href="materials.html">Материалы</a>
+      <a data-nav href="algorithms.html">Алгоритмы</a>
+      <a data-nav href="memos.html">Памятки</a>      <a data-nav href="news.html">Новости</a>
+      <a data-nav href="gims7.html">ГИМС №7</a>
+    </div>
+  </div>
+</header>
+
+
+
+<main class="container">
+  <section class="hero">
+    <div class="card heroCard reveal" style="position:relative; overflow:hidden">
+      <div class="heroGlow"></div>
+      <div class="kicker"><span class="dot"></span>Регламенты / алгоритмы • сценарии</div>
+      <h1>Алгоритмы реагирования</h1>
+      <p class="lead">
+        Карточки-сценарии: быстрый план действий + ключевые ошибки, которые нельзя допускать.
+      </p>
+      <div class="heroActions">
+        <a class="btn primary" href="materials.html">Материалы</a>
+        <a class="btn" href="equipment.html">Оснащение</a>
+        <a class="btn" href="memos.html">Памятки</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="sectionHeader reveal">
+      <h2>Сценарии</h2>
+      <p>Кликаешь — получаешь чек-лист. (Потом расширим под твою RP-логику: доклады/радиокоды/роли.)</p>
+    </div>
+
+    <div class="cards">
+      <a class="card item reveal" href="ru-emercom-fire-control.html">
+        <div class="cardTitleRow">
+          <div class="left">
+            <div class="iconBadge" style="color: var(--mchs-orange)">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 2c2.2 2 3.2 4.3 3 6.9-.2 2.2-1.5 3.8-3 5.1-1.5-1.2-2.7-2.7-3-4.7C8.6 7.1 9.6 4.3 12 2Z" stroke="currentColor" stroke-width="1.8" />
+                <path d="M16.7 10.5c2.2 2.3 3.1 4.6 2.5 6.8-.8 3-3.5 4.7-7.2 4.7s-6.4-1.7-7.2-4.7c-.6-2.2.3-4.5 2.5-6.8.1 2.2 1.1 3.9 2.7 5.2 1.6 1.3 3.7 2 5.9 2 2.2 0 4.3-.7 5.9-2 1.6-1.3 2.6-3 2.7-5.2Z" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <h3>Пожар в квартире</h3>
+          </div>
+          <span class="tag">тактика</span>
+        </div>
+        <p class="small">Разведка → защита эвакуации → подача первого ствола → вентиляция по обстановке.</p>
+      </a>
+
+      <a class="card item reveal" href="ru-emercom-rescue-operations.html">
+        <div class="cardTitleRow">
+          <div class="left">
+            <div class="iconBadge" style="color: var(--mchs-blue)">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6 7h12v10H6V7Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M9 7V5h6v2" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M8 12h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>ДТП</h3>
+          </div>
+          <span class="tag">АСР</span>
+        </div>
+        <p class="small">Ограждение → стабилизация ТС → доступ → деблокирование → передача СМП.</p>
+      </a>
+
+      <a class="card item reveal" href="ru-emercom-water-sources.html">
+        <div class="cardTitleRow">
+          <div class="left">
+            <div class="iconBadge" style="color: var(--mchs-blue)">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 3c4 6 7 9 7 12a7 7 0 1 1-14 0c0-3 3-6 7-12Z" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <h3>Водоисточник / установка на ПГ / водоём</h3>
+          </div>
+          <span class="tag">насос</span>
+        </div>
+        <p class="small">Подъезд → безопасность → подключение/всасывание → контроль давления → резерв.</p>
+      </a>
+
+      <a class="card item reveal" href="ru-emercom-equipment.html">
+        <div class="cardTitleRow">
+          <div class="left">
+            <div class="iconBadge" style="color: var(--mchs-orange)">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 3l7 4v6c0 5-3.5 8-7 8s-7-3-7-8V7l7-4Z" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <h3>ГДЗС / работа в задымлении</h3>
+          </div>
+          <span class="tag">безопасность</span>
+        </div>
+        <p class="small">Звено → контроль давления → связь → поиск/эвакуация → выход по времени.</p>
+      </a>
+    </div>
+
+<div class="card reveal scenarioCard">
+  <div class="scenarioTop">
+    <div class="scenarioTitle">
+      <div class="scenarioMark" style="color: var(--mchs-orange)">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2c3 3 4 5 4 7a4 4 0 1 1-8 0c0-2 1-4 4-7Z" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M10 14c0 2 1 4 2 6c1-2 2-4 2-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="scenarioKicker">
+          <span class="chip heat">сценарий</span>
+          <span class="muted">чек‑лист для первого караула</span>
+        </div>
+        <h3 style="margin:6px 0 6px">Пожар в ТЦ</h3>
+        <p class="small muted" style="margin:0">
+          Что уточнять по прибытии, какие решения принять в первые минуты и где чаще всего теряют безопасность.
+        </p>
+      </div>
+    </div>
+
+    <div class="scenarioChips">
+      <span class="chip">эвакуация</span>
+      <span class="chip">ГДЗС</span>
+      <span class="chip">ОТВ</span>
+    </div>
+  </div>
+
+  <div class="scenarioGrid">
+    <div class="scenarioBlock">
+      <div class="scenarioBlockHead"><span class="scenarioStep">1</span><span>Первичный доклад (КТО / ГДЕ / ЧТО)</span></div>
+      <ul class="checklist">
+        <li><span class="checkDot"></span><div>Адрес + вход/сектор: «ТЦ, северный вход, 2 этаж».</div></li>
+        <li><span class="checkDot"></span><div>Что наблюдаем: дым/огонь/сработка АПС, наличие людей.</div></li>
+        <li><span class="checkDot"></span><div>Решение РТП: эвакуация, развёртывание, подача ствола, ГДЗС.</div></li>
+        <li><span class="checkDot"></span><div>Запрос сил: доп. АЦ/АПП, СМП, ДПС на перекрытие.</div></li>
+      </ul>
+    </div>
+
+    <div class="scenarioBlock">
+      <div class="scenarioBlockHead"><span class="scenarioStep">2</span><span>Вводные и риски</span></div>
+      <ul class="checklist">
+        <li><span class="checkDot"></span><div>Большие площади, лифты/эскалаторы, сложная ориентация.</div></li>
+        <li><span class="checkDot"></span><div>Паника и толпы: приоритет — <b>эвакуация</b> и пути выхода.</div></li>
+        <li><span class="checkDot"></span><div>Дым: контроль времени, звено/резерв, связь, контроль дверей.</div></li>
+        <li><span class="checkDot"></span><div>Электрика/вентиляция: отключение по возможности, работа с администрацией.</div></li>
+      </ul>
+    </div>
+
+    <div class="scenarioBlock">
+      <div class="scenarioBlockHead"><span class="scenarioStep">3</span><span>Действия первого караула</span></div>
+      <ul class="checklist">
+        <li><span class="checkDot"></span><div>Разведка → определение очага → постановка задач по секторам.</div></li>
+        <li><span class="checkDot"></span><div>ОТВ: обеспечить подачу (гидрант/подвоз), магистраль/рукавная линия.</div></li>
+        <li><span class="checkDot"></span><div>Защита путей эвакуации и поиск/спасение пострадавших.</div></li>
+        <li><span class="checkDot"></span><div>Пост безопасности ГДЗС: учёт звеньев, время, воздух.</div></li>
+      </ul>
+    </div>
+
+    <div class="scenarioBlock">
+      <div class="scenarioBlockHead"><span class="scenarioStep">4</span><span>Безопасность</span></div>
+      <ul class="checklist">
+        <li><span class="checkDot"></span><div>Не заходить без задачи и связи. Работаем парами/звеньями.</div></li>
+        <li><span class="checkDot"></span><div>Контроль температуры/завалов/витрин и подвесных конструкций.</div></li>
+        <li><span class="checkDot"></span><div>Ограждение и подъезд: оставить коридор для техники и СМП.</div></li>
+        <li><span class="checkDot"></span><div>Запасной выход и точка сбора звеньев — назначить сразу.</div></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="scenarioFooter">
+    Мини‑чек: <b>Разведка</b> → <b>Эвакуация</b> → <b>ГДЗС</b> → <b>Подача ОТВ</b> → <b>Локализация</b> → <b>Проливка/контроль</b>.
+  </div>
+</div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footerGrid">
+      <div>
+        <div><strong>МЧС • г. Невский</strong> — ПСЧ №3 • ГИМС №7</div>
+        <div class="small">Сайт статический (GitHub Pages). Обновляй данные в <span class="kbd">/data</span>.</div>
+      </div>
+      <div class="small">
+        Быстрый фокус на поиск: <span class="kbd">Ctrl</span> + <span class="kbd">K</span><br/>
+        <a href="README.html">Инструкция</a> • <a href="materials.html">Материалы</a> • <a href="404.html">404</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
